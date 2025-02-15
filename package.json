@@ -9,12 +9,15 @@
         "preview": "vite preview",
         "lint": "eslint src",
         "fix": "eslint src --fix",
-        "format": "npx  prettier --write \"./**/*.{html,vue,js,json,md}\""
+        "format": "npx  prettier --write \"./**/*.{html,vue,js,json,md}\"",
+        "commitlint": "npx commitlint --config commitlint.config.cjs -e -V"
     },
     "dependencies": {
         "vue": "^3.5.13"
     },
     "devDependencies": {
+        "@commitlint/cli": "^19.7.1",
+        "@commitlint/config-conventional": "^19.7.1",
         "@eslint/js": "^9.20.0",
         "@vitejs/plugin-vue": "^5.2.1",
         "@vue/tsconfig": "^0.7.0",

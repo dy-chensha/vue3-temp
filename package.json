@@ -23,6 +23,7 @@
         "eslint-plugin-prettier": "^5.2.3",
         "eslint-plugin-vue": "^9.32.0",
         "globals": "^15.15.0",
+        "husky": "^9.1.7",
         "postcss-scss": "^4.0.9",
         "prettier": "^3.5.1",
         "sass": "^1.85.0",

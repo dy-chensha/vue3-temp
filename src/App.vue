@@ -1,14 +1,15 @@
 <template>
-    <div class="box">
-        <h1>app首页</h1>
+    <div>
+
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+ for (let i = 0; i < 100; i++) {
+   console.log(i)
+ }
+</script>
 
 <style lang="scss" scoped>
-.box {
-    width: 600px;
-    height: 400px;
-}
+
 </style>

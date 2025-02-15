@@ -1,11 +1,25 @@
 <template>
-    <div>1</div>
+    <div class="box">
+      <h1>参数</h1>
+        <SvgIcon name="love" />
+    </div>
 </template>
 
 <script setup>
-for (let i = 0; i < 100; i++) {
-    console.log(i);
-}
+import axios from 'axios';
+axios({
+  url:'/api/user/login',
+  method:'post',
+  data:{
+    username:'admin',
+    password:'123456'
+  }
+})
 </script>
-
-<style lang="scss" scoped></style>
+<style lang="scss" >
+.box{
+  h1{
+    color: $mainColor
+  }
+}
+</style>

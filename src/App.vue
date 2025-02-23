@@ -7,14 +7,11 @@
 
 <script setup>
 import axios from 'axios';
-axios({
-    url: '/api/user/login',
-    method: 'post',
-    data: {
-        username: 'admin',
-        password: '123456',
-    },
-});
+import {reqLogin} from '@/api/user'
+import {onMounted} from "vue"
+onMounted(()=>{
+    reqLogin({username:'admin',password:'123456'})
+})
 </script>
 <style lang="scss">
 .box {

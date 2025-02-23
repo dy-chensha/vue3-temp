@@ -2,7 +2,7 @@ import { MockMethod } from 'vite-plugin-mock';
 
 export default [
   {
-    url: '/api/user/login',
+    url: '/dev-api/user/login',
     method: 'post',
     response: ({ body }) => {
       const { username, password } = body;

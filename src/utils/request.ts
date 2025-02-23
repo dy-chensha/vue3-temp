@@ -10,7 +10,7 @@ let request = axios.create(
 // 请求实例添加请求和响应拦截器
 request.interceptors.request.use((config) => {
   // config配置对象，headers属性，经常给服务端携带公共参数
-
+  
   // 返回配置对象
   return config
 })

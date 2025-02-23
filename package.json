@@ -33,6 +33,7 @@
         "globals": "^15.15.0",
         "husky": "^9.1.7",
         "mock.js": "^0.2.0",
+        "pinia": "^3.0.1",
         "postcss-scss": "^4.0.9",
         "prettier": "^3.5.1",
         "sass": "^1.85.0",
@@ -46,6 +47,7 @@
         "vite": "^6.1.0",
         "vite-plugin-mock": "^3.0.2",
         "vite-plugin-svg-icons": "^2.0.1",
+        "vue-router": "^4.5.0",
         "vue-tsc": "^2.2.0"
     }
 }

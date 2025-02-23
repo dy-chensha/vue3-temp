@@ -13,5 +13,9 @@ import globalComponent from "@/components/index.ts"
 app.use(globalComponent)
 // 全局样式
 import '@/assets/style/index.scss'
+import router from "./router/index"
+import pinia from './store/index'
+app.use(router)
+app.use(pinia)
 app.mount('#app');
 
